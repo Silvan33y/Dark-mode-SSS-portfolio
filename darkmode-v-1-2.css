@@ -1,0 +1,56 @@
+<style>
+	:root {
+  		color-scheme: light dark; /* both supported */
+	}
+  
+	body,
+	body .dark-mode-toggle-dot {
+     	background: #dddddd;
+    }
+
+  	body .dark-mode-toggle {
+  		background: #0a0a0a;
+  	}
+  
+	/* Dark theme colors */
+	
+	body.dark-theme,
+	body.dark-theme .dark-mode-toggle-dot {
+     	background: #0a0a0a;
+    }
+
+  	body .dark-mode-toggle {
+  		background: #dddddd;
+  	}
+
+  @media (prefers-color-scheme: dark) {
+  	/* defaults to dark theme */
+  
+	body,
+	body .dark-mode-toggle-dot {
+     	background: #0a0a0a;
+    }
+
+  	body .dark-mode-toggle {
+  		background: #dddddd;
+  	}
+
+  /* Override dark mode with light mode styles if the user decides to swap */
+  	
+	body.light-theme,
+	body.light-theme .dark-mode-toggle-dot {
+     	background: #dddddd;
+    }
+
+  	body.light-theme .dark-mode-toggle {
+  		background: #0a0a0a;
+  	}
+  }
+</style>
+
+<style>
+    /* reset CSS */
+    body {
+      margin: 0;
+    }
+</style>
