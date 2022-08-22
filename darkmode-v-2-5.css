@@ -1,0 +1,284 @@
+<style>
+	:root {
+  		color-scheme: light dark; /* both supported */
+	}
+  
+	body,
+	body .pf-main-wrapper,
+	body .dark-mode-toggle-dot,
+	body .pf-section-intro,
+	body .pf-section-experience,
+	body .pf-lightbox-container {
+     	background: #dddddd;
+    }
+
+  	body .dark-mode-toggle,
+	body .pf-heading-grid-sticky,
+	body .pf-form-submit-btn,
+	body .pf-close-icon-lightbox:before,
+	body .pf-close-icon-lightbox:after {
+  		background: #0a0a0a;
+  	}
+
+  	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body p {
+  		color: #0a0a0a;
+  	}
+
+	body .pf-heading-4.pf-heading-4-invert {
+		color: #e6e6e6;
+	}
+	
+	body .pf-form-submit-btn {
+		color: #dddddd;
+	}
+	
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+		color: #eeeeee;
+	}
+
+	body .pf-experience-row {
+		border-color: #0a0a0a;
+	}
+	
+	body .pf-section-grid,
+	body .pf-lightbox-container {
+		border-color: rgba(10, 10, 10, 0.2);
+	}
+	
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+		background: rgba(10, 10, 10, 0.2);
+	}
+	
+	body .pf-social-icon {
+		filter: invert(0%);
+	}
+	
+	body .pf-section-grid {
+  		background-image: @img_6303ac07ff8604835215c4a0;
+	}
+	
+	body .pf-lightbox {
+		background: rgba(221, 221, 221, 0.9);
+	}
+	
+	body .pf-grid-img {
+  		box-shadow: 0 10px 7px 0 hsla(0, 0.00%, 70.00%, 1.00);
+	}
+  
+	/* Dark theme colors */
+	
+	body.dark-theme,
+	body.dark-theme .pf-main-wrapper,
+	body.dark-theme .dark-mode-toggle-dot,
+	body.dark-theme .pf-section-intro,
+	body.dark-theme .pf-section-experience,
+	body.dark-theme .pf-lightbox-container {
+     	background: #0a0a0a;
+    }
+
+  	body.dark-theme .dark-mode-toggle,
+	body.dark-theme .pf-heading-grid-sticky,
+	body.dark-theme .pf-form-submit-btn,
+	body.dark-theme .pf-close-icon-lightbox:before,
+	body.dark-theme .pf-close-icon-lightbox:after {
+  		background: #dddddd;
+  	}
+
+  	body.dark-theme,
+	body.dark-theme h1,
+  	body.dark-theme h2,
+  	body.dark-theme h3,
+  	body.dark-theme h4,
+	body.dark-theme p,
+	body.dark-theme .pf-form-field-input,
+	body.dark-theme .pf-form-field-text {
+  		color: #e6e6e6;
+  	}
+
+	body.dark-theme .pf-heading-4.pf-heading-4-invert,
+	body.dark-theme .pf-form-submit-btn {
+		color: #0a0a0a;
+	}
+
+	body.dark-theme .pf-experience-row {
+		border-color: #e6e6e6;
+	}
+	
+	body.dark-theme .pf-section-grid,
+	body.dark-theme .pf-lightbox-container {
+		border-color: rgba(230, 230, 230, 0.2);
+	}
+	
+	body.dark-theme .pf-form-field-input,
+	body.dark-theme .pf-form-field-text {
+		background: rgba(230, 230, 230, 0.2);
+	}
+	
+	body.dark-theme .pf-social-icon {
+		filter: invert(100%);
+	}
+	
+	body.dark-theme .pf-lightbox {
+		background: rgba(10, 10, 10, 0.9);
+	}
+	
+	body.dark-theme .pf-grid-img {
+  		box-shadow: 0 10px 7px 0 hsla(0, 0.00%, 23.33%, 1.00);
+	}
+	
+	body.dark-theme .pf-section-grid {
+  		background-image: @img_6303b6f1d943a3ec037b7c9e;
+	}
+
+  @media (prefers-color-scheme: dark) {
+  	/* defaults to dark theme */
+  
+	body,
+	body .pf-main-wrapper,
+	body .dark-mode-toggle-dot,
+	body .pf-section-intro,
+	body .pf-section-experience,
+	body .pf-lightbox-container {
+     	background: #0a0a0a;
+    }
+
+  	body .dark-mode-toggle,
+	body .pf-heading-grid-sticky,
+	body .pf-form-submit-btn,
+	body .pf-close-icon-lightbox:before,
+	body .pf-close-icon-lightbox:after {
+  		background: #dddddd;
+  	}
+
+  	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body p,
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+  		color: #e6e6e6;
+  	}
+
+	body .pf-heading-4.pf-heading-4-invert,
+	body .pf-form-submit-btn {
+		color: #0a0a0a;
+	}
+
+	body .pf-experience-row {
+		border-color: #e6e6e6;
+	}
+	
+	body .pf-section-grid,
+	body .pf-lightbox-container {
+		border-color: rgba(230, 230, 230, 0.2);
+	}
+	
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+		background: rgba(230, 230, 230, 0.2);
+	}
+	
+	body .pf-social-icon {
+		filter: invert(100%);
+	}
+	
+	body .pf-lightbox {
+		background: rgba(10, 10, 10, 0.9);
+	}
+	
+	body .pf-grid-img {
+  		box-shadow: 0 10px 7px 0 hsla(0, 0.00%, 23.33%, 1.00);
+	}
+	
+	body .pf-section-grid {
+  		background-image: @img_6303b6f1d943a3ec037b7c9e;
+	}
+
+  /* Override dark mode with light mode styles if the user decides to swap */
+  	
+	body.light-theme,
+	body.light-theme .pf-main-wrapper,
+	body.light-theme .dark-mode-toggle-dot,
+	body.light-theme .pf-section-intro,
+	body.light-theme .pf-section-experience,
+	body.light-theme .pf-lightbox-container {
+     	background: #dddddd;
+    }
+
+  	body.light-theme .dark-mode-toggle,
+	body.light-theme .pf-heading-grid-sticky,
+	body.light-theme .pf-form-submit-btn,
+	body.light-theme .pf-close-icon-lightbox:before,
+	body.light-theme .pf-close-icon-lightbox:after {
+  		background: #0a0a0a;
+  	}
+
+  	body.light-theme,
+	body.light-theme h1,
+	body.light-theme h2,
+	body.light-theme h3,
+	body.light-theme h4,
+	body.light-theme p {
+  		color: #0a0a0a;
+  	}
+
+	body.light-theme .pf-heading-4.pf-heading-4-invert {
+		color: #e6e6e6;
+	}
+	
+	body.light-theme .pf-form-submit-btn {
+		color: #dddddd;
+	}
+	
+	body.light-theme .pf-form-field-input,
+	body.light-theme .pf-form-field-text {
+		color: #eeeeee;
+	}
+
+	body.light-theme .pf-experience-row {
+		border-color: #0a0a0a;
+	}
+	
+	body.light-theme .pf-section-grid,
+	body.light-theme .pf-lightbox-container {
+		border-color: rgba(10, 10, 10, 0.2);
+	}
+	
+	body.light-theme .pf-form-field-input,
+	body.light-theme .pf-form-field-text {
+		background: rgba(10, 10, 10, 0.2);
+	}
+	
+	body.light-theme .pf-social-icon {
+		filter: invert(0%);
+	}
+	
+	body.light-theme .pf-section-grid {
+  		background-image: @img_6303ac07ff8604835215c4a0;
+	}
+	
+	body.light-theme .pf-lightbox {
+		background: rgba(221, 221, 221, 0.9);
+	}
+	
+	body.light-theme .pf-grid-img {
+  		box-shadow: 0 10px 7px 0 hsla(0, 0.00%, 70.00%, 1.00);
+	}
+  }
+</style>
+
+<style>
+    /* reset CSS */
+    body {
+      margin: 0;
+    }
+</style>
