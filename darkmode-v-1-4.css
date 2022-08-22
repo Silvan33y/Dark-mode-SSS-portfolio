@@ -1,0 +1,145 @@
+<style>
+	:root {
+  		color-scheme: light dark; /* both supported */
+	}
+  
+	body,
+	body .pf-body,
+	body .dark-mode-toggle-dot,
+	body .pf-section-intro,
+	body .pf-section-grid,
+	body .pf-section-experience {
+     	background: #dddddd;
+    }
+
+  	body .dark-mode-toggle,
+	body .pf-heading-grid-sticky {
+  		background: #0a0a0a;
+  	}
+
+  	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body p {
+  		color: #0a0a0a;
+  	}
+
+	body .pf-experience-row {
+		border-color: #0a0a0a;
+	}
+	
+	body .pf-section-grid {
+		border-color: rgba(10, 10, 10, 0.2);
+	}
+  
+	/* Dark theme colors */
+	
+	body.dark-theme,
+	body.dark-theme .pf-body,
+	body.dark-theme .dark-mode-toggle-dot,
+	body.dark-theme .pf-section-intro,
+	body.dark-theme .pf-section-grid,
+	body.dark-theme .pf-section-experience {
+     	background: #0a0a0a;
+    }
+
+  	body.dark-theme .dark-mode-toggle,
+	body.dark-theme .pf-heading-grid-sticky {
+  		background: #dddddd;
+  	}
+
+  	body.dark-theme,
+	body.dark-theme h1,
+  	body.dark-theme h2,
+  	body.dark-theme h3,
+  	body.dark-theme h4,
+	body.dark-theme p {
+  		color: #e6e6e6;
+  	}
+
+	body.dark-theme .pf-experience-row {
+		border-color: #e6e6e6;
+	}
+	
+	body.dark-theme .pf-section-grid {
+		border-color: rgba(230, 230, 230, 0.2);
+	}
+
+  @media (prefers-color-scheme: dark) {
+  	/* defaults to dark theme */
+  
+	body,
+	body .pf-body,
+	body .dark-mode-toggle-dot,
+	body .pf-section-intro,
+	body .pf-section-grid,
+	body .pf-section-experience {
+     	background: #0a0a0a;
+    }
+
+  	body .dark-mode-toggle,
+	body .pf-heading-grid-sticky {
+  		background: #dddddd;
+  	}
+
+  	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body p {
+  		color: #e6e6e6;
+  	}
+
+	body .pf-experience-row {
+		border-color: #e6e6e6;
+	}
+	
+	body .pf-section-grid {
+		border-color: rgba(230, 230, 230, 0.2);
+	}
+
+  /* Override dark mode with light mode styles if the user decides to swap */
+  	
+	body.light-theme,
+	body.light-theme .pf-body,
+	body.light-theme .dark-mode-toggle-dot,
+	body.light-theme .pf-section-intro,
+	body.light-theme .pf-section-grid,
+	body.light-theme .pf-section-experience {
+     	background: #dddddd;
+    }
+
+  	body.light-theme .dark-mode-toggle,
+	body.light-theme .pf-heading-grid-sticky {
+  		background: #0a0a0a;
+  	}
+
+  	body.light-theme,
+	body.light-theme h1,
+	body.light-theme h2,
+	body.light-theme h3,
+	body.light-theme h4,
+	body.light-theme p {
+  		color: #0a0a0a;
+  	}
+
+	body.light-theme .pf-experience-row {
+		border-color: #0a0a0a;
+	}
+	
+	body.light-theme .pf-section-grid {
+		border-color: rgba(10, 10, 10, 0.2);
+	}
+
+  }
+</style>
+
+<style>
+    /* reset CSS */
+    body {
+      margin: 0;
+    }
+</style>
