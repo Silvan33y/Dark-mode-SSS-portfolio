@@ -1,0 +1,327 @@
+<style>
+	:root {
+  		color-scheme: light dark; /* both supported */
+	}
+  
+	body,
+	body .pf-main-wrapper,
+	body .pf-section-top,
+	body .pf-section-bottom-layer-1,
+  body .pf-section-bottom-layer-2,
+	body .pf-lightbox-container,
+	body .pf-preloader {
+     	background: #dddddd;
+    }
+
+	body .pf-heading-grid-sticky,
+	body .pf-form-submit-btn,
+	body .pf-close-icon-horizontal,
+	body .pf-close-icon-vertical {
+  		background: #0a0a0a;
+  	}
+
+  	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body p {
+  		color: #0a0a0a;
+  	}
+
+	body .pf-heading-4.pf-heading-4-invert {
+		color: #e6e6e6;
+	}
+	
+	body .pf-form-submit-btn {
+		color: #dddddd;
+	}
+	
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+		color: #eeeeee;
+	}
+
+	body .pf-experience-row,
+	body .pf-heading-grid-sticky-border {
+		border-color: #0a0a0a;
+	}
+	
+	body .pf-section-middle,
+	body .pf-lightbox-container {
+		border-color: rgba(10, 10, 10, 0.2);
+	}
+	
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+		background: rgba(10, 10, 10, 0.2);
+	}
+	
+	body .pf-social-icon,
+  body .pf-dm-sun-icon-fill,
+  body .pf-dm-moon-icon-fill {
+		fill: #0a0a0a;
+	}
+	
+	body .pf-section-middle {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/6303ac07ff8604835215c4a0_silvan-soeters-grid-pinboard-bg.jpg");
+	}
+	
+	body .pf-lightbox {
+		background: rgba(221, 221, 221, 0.9);
+	}
+	
+	body .pf-portrait-img-shadow {
+  		background: rgba(10, 10, 10, 0.33);
+	}
+
+  body .pf-dm-sun-icon {
+    display: block;  
+  }
+
+  body .pf-dm-moon-icon {
+    display: none;  
+  }
+  
+	/* Dark theme colors */
+	
+	body.dark-theme,
+	body.dark-theme .pf-main-wrapper,
+	body.dark-theme .pf-section-intro,
+	body.dark-theme .pf-section-bottom-layer-1,
+  body.dark-theme .pf-section-bottom-layer-2,
+	body.dark-theme .pf-lightbox-container,
+	body.dark-theme .pf-preloader {
+     	background: #0a0a0a;
+    }
+
+	body.dark-theme .pf-heading-grid-sticky,
+	body.dark-theme .pf-close-icon-horizontal,
+	body.dark-theme .pf-close-icon-vertical {
+  		background: #e6e6e6;
+  	}
+
+  	body.dark-theme,
+	body.dark-theme h1,
+  	body.dark-theme h2,
+  	body.dark-theme h3,
+  	body.dark-theme h4,
+	body.dark-theme p,
+	body.dark-theme .pf-form-field-input,
+	body.dark-theme .pf-form-field-text {
+  		color: #e6e6e6;
+  	}
+
+	body.dark-theme .pf-heading-4.pf-heading-4-invert,
+	body.dark-theme .pf-form-submit-btn {
+		color: #0a0a0a;
+	}
+
+	body.dark-theme .pf-experience-row,
+	body.dark-theme .pf-heading-grid-sticky-border {
+		border-color: #e6e6e6;
+	}
+	
+	body.dark-theme .pf-section-middle,
+	body.dark-theme .pf-lightbox-container {
+		border-color: rgba(230, 230, 230, 0.2);
+	}
+	
+	body.dark-theme .pf-form-field-input,
+	body.dark-theme .pf-form-field-text {
+		background: rgba(230, 230, 230, 0.2);
+	}
+	
+	body.dark-theme .pf-social-icon,
+  body.dark-theme .pf-dm-sun-icon-fill,
+  body.dark-theme .pf-dm-moon-icon-fill {
+		fill: #e6e6e6;
+	}
+	
+	body.dark-theme .pf-lightbox {
+		background: rgba(10, 10, 10, 0.9);
+	}
+	
+	body.dark-theme .pf-portrait-img-shadow {
+  		background: rgba(230, 230, 230, 0.33);
+	}
+	
+	body.dark-theme .pf-section-middle {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/6303b6f1d943a3ec037b7c9e_silvan-soeters-grid-pinboard-bg-dark.jpg");
+	}
+
+  body.dark-theme .pf-dm-sun-icon {
+    display: none;  
+  }
+
+  body.dark-theme .pf-dm-moon-icon {
+    display: flex;  
+  }
+
+  @media (prefers-color-scheme: dark) {
+  	/* defaults to dark theme */
+  
+	body,
+	body .pf-main-wrapper,
+	body .pf-section-intro,
+	body .pf-section-bottom-layer-1,
+  body .pf-section-bottom-layer-2,
+	body .pf-lightbox-container,
+	body .pf-preloader {
+     	background: #0a0a0a;
+    }
+
+	body .pf-heading-grid-sticky,
+	body .pf-form-submit-btn,
+	body .pf-close-icon-horizontal,
+	body .pf-close-icon-vertical {
+  		background: #e6e6e6;
+  	}
+
+  	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body p,
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+  		color: #e6e6e6;
+  	}
+
+	body .pf-heading-4.pf-heading-4-invert,
+	body .pf-form-submit-btn {
+		color: #0a0a0a;
+	}
+
+	body .pf-experience-row,
+	body .pf-heading-grid-sticky-border {
+		border-color: #e6e6e6;
+	}
+	
+	body .pf-section-middle,
+	body .pf-lightbox-container {
+		border-color: rgba(230, 230, 230, 0.2);
+	}
+	
+	body .pf-form-field-input,
+	body .pf-form-field-text {
+		background: rgba(230, 230, 230, 0.2);
+	}
+	
+	body .pf-social-icon,
+  body .pf-dm-sun-icon-fill,
+  body .pf-dm-moon-icon-fill {
+		fill: #e6e6e6;
+	}
+	
+	body .pf-lightbox {
+		background: rgba(10, 10, 10, 0.9);
+	}
+	
+	body .pf-portrait-img-shadow {
+  		background: rgba(230, 230, 230, 0.33);
+	}
+	
+	body .pf-section-middle {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/6303b6f1d943a3ec037b7c9e_silvan-soeters-grid-pinboard-bg-dark.jpg");
+	}
+    
+  body .pf-dm-sun-icon {
+    display: none;  
+  }
+
+  body .pf-dm-moon-icon {
+    display: flex;  
+  }
+
+  /* Override dark mode with light mode styles if the user decides to swap */
+  	
+	body.light-theme,
+	body.light-theme .pf-main-wrapper,
+	body.light-theme .pf-section-intro,
+	body.light-theme .pf-section-bottom-layer-1,
+  body.light-theme .pf-section-bottom-layer-2,
+	body.light-theme .pf-lightbox-container,
+	body.light-theme .pf-preloader {
+     	background: #dddddd;
+    }
+
+	body.light-theme .pf-heading-grid-sticky,
+	body.light-theme .pf-form-submit-btn,
+	body.light-theme .pf-close-icon-horizontal,
+	body.light-theme .pf-close-icon-vertical {
+  		background: #0a0a0a;
+  	}
+
+  	body.light-theme,
+	body.light-theme h1,
+	body.light-theme h2,
+	body.light-theme h3,
+	body.light-theme h4,
+	body.light-theme p {
+  		color: #0a0a0a;
+  	}
+
+	body.light-theme .pf-heading-4.pf-heading-4-invert {
+		color: #e6e6e6;
+	}
+	
+	body.light-theme .pf-form-submit-btn {
+		color: #dddddd;
+	}
+	
+	body.light-theme .pf-form-field-input,
+	body.light-theme .pf-form-field-text {
+		color: #eeeeee;
+	}
+
+	body.light-theme .pf-experience-row,
+	body.light-theme .pf-heading-grid-sticky-border {
+		border-color: #0a0a0a;
+	}
+	
+	body.light-theme .pf-section-middle,
+	body.light-theme .pf-lightbox-container {
+		border-color: rgba(10, 10, 10, 0.2);
+	}
+	
+	body.light-theme .pf-form-field-input,
+	body.light-theme .pf-form-field-text {
+		background: rgba(10, 10, 10, 0.2);
+	}
+	
+	body.light-theme .pf-social-icon,
+  body.light-theme .pf-dm-sun-icon-fill,
+  body.light-theme .pf-dm-moon-icon-fill {
+		fill: #0a0a0a;
+	}
+	
+	body.light-theme .pf-section-middle {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/6303ac07ff8604835215c4a0_silvan-soeters-grid-pinboard-bg.jpg");
+	}
+	
+	body.light-theme .pf-lightbox {
+		background: rgba(221, 221, 221, 0.9);
+	}
+	
+	body.light-theme .pf-portrait-img-shadow {
+  		background: rgba(10, 10, 10, 0.33);
+	}
+    
+  body.light-theme .pf-dm-sun-icon {
+    display: block;  
+  }
+
+  body.light-theme .pf-dm-moon-icon {
+    display: none;  
+  }
+  }
+</style>
+
+<style>
+    /* reset CSS */
+    body {
+      margin: 0;
+    }
+</style>
