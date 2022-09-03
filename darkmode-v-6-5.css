@@ -66,7 +66,6 @@
     border-color: #dddddd;  
   }
 	
-	body .pf-section-middle,
 	body .pf-lightbox-container,
   body .pf-section-bottom-layer-1 {
 		border-color: rgba(10, 10, 10, 0.2);
@@ -171,7 +170,6 @@
 		border-color: #0a0a0a;
 	}
 	
-	body.dark-theme .pf-section-middle,
 	body.dark-theme .pf-lightbox-container,
   body.dark-theme .pf-section-bottom-layer-1 {
 		border-color: rgba(230, 230, 230, 0.2);
@@ -278,7 +276,6 @@
 		border-color: #0a0a0a;
 	}
 	
-	body .pf-section-middle,
 	body .pf-lightbox-container,
   body .pf-section-bottom-layer-1 {
 		border-color: rgba(230, 230, 230, 0.2);
@@ -390,7 +387,6 @@
     border-color: #dddddd;  
   }
 	
-	body.light-theme .pf-section-middle,
 	body.light-theme .pf-lightbox-container,
   body.light-theme .pf-section-bottom-layer-1 {
 		border-color: rgba(10, 10, 10, 0.2);
